@@ -1,0 +1,82 @@
+body .container-fluid {
+    padding: 0;
+}
+
+.details {
+    background-color: #374458;
+    color: white;
+}
+
+.details .name {
+    margin: 0;
+}
+
+.details .title {
+    color: #4a85b2;
+}
+
+.details .description {
+    font-size: 80%;
+}
+
+.contact {
+    background-color: #2b343f;
+    color: white;
+}
+
+.contact p {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.contact p span {
+    padding-left: .25rem;
+    padding-right: .5rem;
+}
+
+.contact p i {
+    padding-left: .25rem;
+}
+
+.main {
+    margin: 0 1rem;
+}
+
+.main h2 {
+    color: #6195cd;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.main p {
+    margin: 0;
+}
+
+.main .title {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.main .date,
+.main .city,
+.main .functions {
+    color: #6195cd;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.main .city {
+    float: right;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+    /* Remove default bullets */
+}
+
+li::before {
+    content: '\25c9';
+    padding-right: 0.5em;
+    color: #6195cd;
+}
