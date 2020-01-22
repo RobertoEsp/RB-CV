@@ -55,6 +55,10 @@ body .container-fluid>div {
 .contact p i {
     padding-left: .25rem;
 }
+.contact a {
+    color: white;
+    text-decoration: none;
+}
 
 .main {
     margin: 0 1rem;
@@ -84,7 +88,7 @@ body .container-fluid>div {
 }
 
 .main .city {
-    float: right;
+    padding-left: 50px;
 }
 
 .main .badge {
